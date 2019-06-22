@@ -1,68 +1,9 @@
-> Hi there:
-
-[**头条财经前端团队急招**] 了解团队 / 投简历请联系: 
-
-微信: 103024979 / 邮箱: leecade@163.com
-
-「全新团队, 全新产品, 全新技术栈, 不设技术边界, 不设管理, 不装」
-
-要求: 参考头条面试标准 (重度: `Node` / `RN` / `Vue` / `React` / `微服务` 等技术向)
-
-<img style="float: left" alt="react-native-swiper" src="https://user-images.githubusercontent.com/533360/45361035-c620de00-b603-11e8-9fa7-cb7586e08b66.png" width="150">
-
-----
-
-<p align="center">
-  <img alt="react-native-swiper" src="http://i.imgur.com/P4cRUgD.png" width="208">
-</p>
-
-<p align="center">
-  The best Swiper component for React Native.
-</p>
-
-<p align="center">
-  <a href="http://standardjs.com/"><img alt="JavaScript Style Guide" src="https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat-square"></a>
-  <a href="https://npmjs.org/package/react-native-swiper"><img alt="npm version" src="http://img.shields.io/npm/v/react-native-swiper.svg?style=flat-square"></a>
-  <a href="https://npmjs.org/package/react-native-swiper"><img alt="npm version" src="http://img.shields.io/npm/dm/react-native-swiper.svg?style=flat-square"></a>
-  <a href="https://github.com/leecade/react-native-swiper/pulls?q=is%3Apr+is%3Aclosed"><img alt="PR Stats" src="https://img.shields.io/issuestats/i/github/leecade/react-native-swiper.svg?style=flat-square"></a>
-  <a href="https://github.com/leecade/react-native-swiper/issues?q=is%3Aissue+is%3Aclosed"><img alt="Issue Stats" src="https://img.shields.io/issuestats/p/github/leecade/react-native-swiper.svg?style=flat-square"></a>
-  <a href="https://gitter.im/leecade/react-native-swiper?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge"><img alt="Join the chat" src="https://badges.gitter.im/leecade/react-native-swiper.svg"></a>
-</p>
-
-# react-native-swiper
-
-## Roadmap
-
-> see: [ROADMAP.md](ROADMAP.md)
-
-## Changelogs
-- **[1.5.6]**
-  + Fix [#16](https://github.com/leecade/react-native-swiper/issues/16), [#36](https://github.com/leecade/react-native-swiper/issues/36), [#371](https://github.com/leecade/react-native-swiper/issues/371), [#410](https://github.com/leecade/react-native-swiper/issues/410), [#411](https://github.com/leecade/react-native-swiper/issues/411), [#422](https://github.com/leecade/react-native-swiper/issues/422), [#468](https://github.com/leecade/react-native-swiper/issues/468) Fix landscape orientation auto resize! (thanks [@ahmed3mar](https://github.com/ahmed3mar), [@timmywil](https://github.com/timmywil))
-  + Add containerStyle prop to customize the view container.
-  
-- [1.5.5]
-  + Update: using PropTypes from prop-types and Change View.propTypes to ViewPropTypes
-
-
-- [1.5.4]
-  + Added easily accessible pagination point manipulation: use `dotColor` / `activeDotColor` and `dotStyle` / `activeDotStyle` (thanks [@denizs](https://github.com/denizs))
-  + Added scrollEnabled prop to documentation (thanks [@ibandominguez](https://github.com/ibandominguez))
-
-- [1.5.3]
-  + Add loadMinimalLoader prop to customize `<ActivityIndicator />` (thanks [@Exilz](https://github.com/Exilz))
-  + Disable autoplay timer when prop changes to false (thanks [@dizlexik](https://github.com/dizlexik))
-  + Special thanks to [@hypatiah](https://github.com/dizlexik) for fixed some grammatical errors in README
-
-- [1.5.2]
-  + Add yarn lock
-  + Fix jitter when quickly swiping back and forth between pages (iOS) (thanks [@nemophrost](https://github.com/nemophrost))
-  + The first webview always reloaded when injecting the rest of the children (thanks [@eosterberg](https://github.com/eosterberg))
-
-> see more: [CHANGELOG.md](CHANGELOG.md)
+# react-native-swipe
+This is continuation of the [react-native-swiper](https://github.com/leecade/react-native-swiper) project. With promise of no breaking changes.
 
 ## Show Cases
 
-> Try these cases by yourself very easy, Just open `examples/ios/swiper.xcodeproj` in Xcode, then press `Cmd + R`; you may edit `examples/index.ios.js` for switch cases.
+> Expo link will be ready soon
 
 ### [examples/components/Basic](https://github.com/leecade/react-native-swiper/blob/master/examples/components/Basic)
 
@@ -103,8 +44,13 @@
 
 ### Installation
 
+- NPM
 ```bash
-$ npm i react-native-swiper --save
+$ npm i react-native-swipe --save
+```
+- Yarn
+```bash
+$ yarn add react-native-swipe
 ```
 
 ### Basic Usage
@@ -132,7 +78,7 @@ import {
   View
 } from 'react-native';
 
-import Swiper from 'react-native-swiper';
+import Swiper from 'react-native-swipe';
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -329,13 +275,6 @@ Then launch simulator to preview. Note that you just need to edit the source fil
 
 And now that this project follows the [standard](https://github.com/feross/standard) code style, you'd better prepare it for IDE.
 
-## Contribution
-
-- [@leecade](mailto:leecade@163.com) The main author.
-- [@rajkissu](mailto:rajkissu@gmail.com) The secondary contributor.
-
-## Questions
-
-Feel free to [contact me](mailto:leecade@163.com) or [create an issue](https://github.com/leecade/react-native-swiper/issues/new)
-
-> Inspired by [nolimits4web/Swiper](https://github.com/nolimits4web/swiper/) & Design material from [Dribbble](https://dribbble.com/) & made with ♥.
+## Links
+- [ROADMAP.md](ROADMAP.md)
+- [CHANGELOG.md](CHANGELOG.md)
