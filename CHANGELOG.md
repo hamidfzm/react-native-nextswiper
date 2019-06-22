@@ -1,3 +1,4 @@
+- [1.6.0]
 
 - [1.5.14]
   + fixes #582 (Android not setting this onLayout first?) #789 (thanks [@fungilation](https://github.com/fungilation))
@@ -26,8 +27,8 @@
   + Switch to [standard](https://github.com/feross/standard) code style
   + Rewrite source code with ES6 syntex
   + Cancel transform the source code when publish
-  + Add a [demo](examples/components/LoadMinimal) for `loadMinimal` + `lazyload`
-  + Add a [demo](examples/components/PhotoView) for multi-images viewer
+  + Add a [demo](components/LoadMinimal) for `loadMinimal` + `lazyload`
+  + Add a [demo](components/PhotoView) for multi-images viewer
   + [#254](https://github.com/leecade/react-native-swiper/pull/254) Fix jitter when quickly swiping back and forth between pages (iOS) (@thanks [@nemophrost](https://github.com/nemophrost)).
 
 - [1.4.11]
