@@ -1,0 +1,13 @@
+language: node_js
+node_js:
+- stable
+- '6'
+- '4'
+deploy:
+  provider: npm
+  email: contact@hamidfzm.ir
+  api_key:
+    secure: kiAH7ruo9+TbFwwR8H0ozgLL/7mzyywwE4KGDHG4ylrBcUArjcqDl2geEjMpZ+8j2aYA+OzerZvCdtk7BHJKhW0vHXKNPTigZUnh20cg+wv6URZvV9qswwxljVdwaXb5YqEXFR1+XUeXJDCB2ZXRoT3rsSVrGT8vqjhjPyEsCcKe8tK/I8rKPzSfL7hMTLBwGk9zO6Hn0abaKF3Hcw1rnhNOftxVeqPcyp3t/pmSslQ0zQBhj0OSAgAPMyUU8rWqM/fhLbMHOnPqePvc7ARrpZWVhuaqFEIrUDZBwC67wki7J+wCv5Y8DL89OOa8ctnqcZIXOm4mmEg3V6Fq8eqeAV10GfEWUqHz4qcYw5048oIYRgNMZHkQvoI0H4WleFAlXnnsZsvyBJvGgfpe6HNBP4vaBjKD+bzsup2yTuk3pVnGQyHNHIOR+n+jqVCo1xyj8+NhkGX+Qy6H1Zig5iMjrM44UAiIT3QVQyeZAZaXYoRKbTf6gBu+KholB46ZwF5gIRs9zFsJ5kecdC1Y73Ac7L3NECFWymQxdxUwCmg4d2ixrIU4AHzORVz+RkP02k4rat4g3MGiMjEpmkTa+ngrq/hlGovpV1E2FZU1LLAcE3ObU1x7AM6M9Tu0ZHw6oTwnumuwkIIjRu01C7t86IBn0j3tggvN2L96tpPFZyDAwTc=
+  on:
+    tags: true
+    repo: hamidfzm/react-native-swipe
