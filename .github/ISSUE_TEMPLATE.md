@@ -3,7 +3,7 @@
 ### Version
 Which versions are you using:
 
-- react-native-swiper v?
+- react-native-nextswiper v?
 - react-native v0.?.?
 
 ### Expected behaviour

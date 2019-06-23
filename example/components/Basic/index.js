@@ -4,7 +4,7 @@ import {
   View,
   StyleSheet,
 } from "react-native";
-import Swipe from "react-native-swipe";
+import Swipe from "react-native-nextswiper";
 
 const styles = StyleSheet.create({
   wrapper: {},

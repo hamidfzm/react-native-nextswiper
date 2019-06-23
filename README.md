@@ -46,11 +46,11 @@ This is continuation of the [react-native-swiper](https://github.com/leecade/rea
 
 - NPM
 ```bash
-$ npm i react-native-swipe --save
+$ npm i react-native-nextswiper --save
 ```
 - Yarn
 ```bash
-$ yarn add react-native-swipe
+$ yarn add react-native-nextswiper
 ```
 
 ### Basic Usage
@@ -78,7 +78,7 @@ import {
   View
 } from 'react-native';
 
-import Swiper from 'react-native-swipe';
+import Swiper from 'react-native-nextswiper';
 
 const styles = StyleSheet.create({
   wrapper: {
@@ -276,5 +276,4 @@ Then launch simulator to preview. Note that you just need to edit the source fil
 And now that this project follows the [standard](https://github.com/feross/standard) code style, you'd better prepare it for IDE.
 
 ## Links
-- [ROADMAP.md](ROADMAP.md)
 - [CHANGELOG.md](CHANGELOG.md)

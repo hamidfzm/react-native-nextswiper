@@ -3,7 +3,7 @@
 // eslint-disable-next-line
 import type {Component, Node} from "react";
 
-declare module "react-native-swipe" {
+declare module "react-native-nextswiper" {
     // eslint-disable-next-line no-undef
     declare export type SwiperProps = $ReadOnly<{|
         // Basic
@@ -105,7 +105,7 @@ declare module "react-native-swipe" {
     |}>;
 
     // eslint-disable-next-line no-undef
-    declare export default class Swipe extends Component<SwiperProps> {
+    declare export default class Swiper extends Component<SwiperProps> {
     scrollBy(index: number, animated?: boolean): void;
     }
 }

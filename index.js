@@ -1,3 +1,3 @@
-import Swipe from "./src/";
+import Swiper from "./src/";
 
-module.exports = Swipe;
+module.exports = Swiper;

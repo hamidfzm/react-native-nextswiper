@@ -1,4 +1,4 @@
-declare module 'react-native-swipe' {
+declare module 'react-native-nextswiper' {
     import {ViewStyle} from 'react-native'
     import {Component} from 'react'
 
@@ -37,7 +37,7 @@ declare module 'react-native-swipe' {
         // Custom styles will merge with the default styles.
         paginationStyle?: ViewStyle
         // Complete control how to render pagination with three params (index, total, context) ref to this.state.index / this.state.total / this, For example: show numbers instead of dots.
-        renderPagination?: (index: number, total: number, swipe: Swipe) => JSX.Element
+        renderPagination?: (index: number, total: number, swiper: Swiper) => JSX.Element
         // Allow custom the dot element.
         dot?: any
         // Allow custom the active-dot element.
@@ -101,6 +101,6 @@ declare module 'react-native-swipe' {
         scrollEnabled?: boolean
     }
 
-    export default class Swipe extends Component<SwiperProps, any> {
+    export default class Swiper extends Component<SwiperProps, any> {
     }
 }

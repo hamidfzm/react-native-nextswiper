@@ -4478,7 +4478,7 @@ react-native-svg@9.4.0:
   resolved "https://registry.yarnpkg.com/react-native-svg/-/react-native-svg-9.4.0.tgz#e428e0eae55aebd2355f1ff4f22675dad4611960"
   integrity sha512-IVJlVbS2dAPerPr927fEi4uXzrPXzlra5ddgyJXZZ2IKA2ZygyYWFZDM+vsQs+Vj20CfL8nOWszQQV57vdQgFg==
 
-"react-native-swipe@file:./..":
+"react-native-nextswiper@file:./..":
   version "1.6.0"
   dependencies:
     prop-types "^15.7.2"

@@ -1,5 +1,5 @@
 {
-  "name": "react-native-swipe",
+  "name": "react-native-nextswiper",
   "keywords": [
     "react-component",
     "react-native",
@@ -44,14 +44,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/hamidfzm/react-native-swipe.git"
+    "url": "git+https://github.com/hamidfzm/react-native-nextswiper.git"
   },
   "author": "",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hamidfzm/react-native-swipe/issues"
+    "url": "https://github.com/hamidfzm/react-native-nextswiper/issues"
   },
-  "homepage": "https://github.com/hamidfzm/react-native-swipe#readme",
+  "homepage": "https://github.com/hamidfzm/react-native-nextswiper#readme",
   "devDependencies": {
     "babel-eslint": "^8.0.1",
     "rimraf": "^2.5.4",
