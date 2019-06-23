@@ -5,7 +5,7 @@ import {
   Image,
   Dimensions
 } from 'react-native'
-import Swiper from 'react-native-swiper'
+import Swiper from 'react-native-nextswiper'
 const { width } = Dimensions.get('window')
 const loading = require('./img/loading.gif')
 

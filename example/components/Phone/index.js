@@ -5,7 +5,7 @@ import {
   StatusBar,
   Dimensions
 } from 'react-native'
-import Swiper from 'react-native-swiper'
+import Swiper from 'react-native-nextswiper'
 const { width, height } = Dimensions.get('window')
 
 const styles = {

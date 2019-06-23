@@ -3,7 +3,7 @@ import {
   Text,
   View
 } from 'react-native'
-import Swiper from 'react-native-swiper'
+import Swiper from 'react-native-nextswiper'
 
 const styles = {
   slide1: {
@@ -44,7 +44,7 @@ export default class extends Component {
   componentDidMount () {
     this.setState({
       items: [
-        { title: 'Hello Swiper', css: styles.slide1 },
+        { title: 'Hello Swipe', css: styles.slide1 },
         { title: 'Beautiful', css: styles.slide2 },
         { title: 'And simple', css: styles.slide3 }
       ]
